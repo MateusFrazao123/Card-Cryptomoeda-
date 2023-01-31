@@ -18,4 +18,4 @@ https://courageous-licorice-d675ec.netlify.app
 
 <br>Link do Desafio :📌
 
-https://www.frontendmentor.io/home
+https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
