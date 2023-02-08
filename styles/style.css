@@ -1,46 +1,102 @@
+
 body{
     background-color:hsl(217, 54%, 11%);
     max-width:100%;
+    max-height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 200px;
 }
 
-main{
-    background-color: hsl(216, 50%, 16%);
-    width: 400px;
-    height: 700px;
-    margin-top: 130px;
-    border: none;
+.card{
+    width: 300px;
+    height: 550px;
+    background: #15273f;
+    border: none 10px;
     border-radius: 15px;
 }
-.card{
+
+header img{
+    width: 90%;
+    height: 90%;
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+}
+
+main .textos-principais{
+    display: inline-block;
+    padding: 10px 30px 0 30px;
+}
+    
+main .textos-principais h1{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+main .textos-principais p{
+    color: rgba(255, 255, 255, 0.645);
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main .icons {
     display: flex;
-    flex-direction: column;
-    
-    
+    align-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 90px;
+    border-bottom: solid 1px rgba(245, 222, 179, 0.291);
 }
 
- .imagem-principal img{
-   width: 370px;
-   height: 350px;
-   margin-left: 15px;
-   margin-top: 12px;
-   border: none;
-   border-radius: 10px;
-       
+main .icons p{
+    display: inline-block;
 }
-  
-h1{
+
+main .icons .icon1{
+    padding: 0 0 0 10px;
+    color: aqua;
+    font-size: 13px;
+}
+
+main .icons .icon2{
+    padding: 0 0 0 10px;
+    color: rgb(254, 255, 255);
+    font-size: 13px;
+}
+
+footer{
+    display:flex;
+    padding-top: 12px;
+}
+
+footer .creator{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap:20px 
+}
+
+footer .creator p{
+    display: inline-block;
+}
+
+footer .creator img{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 120px;
+}
+
+footer .creator p{
     color: aliceblue;
-    margin-left: 25px;
-    
 }
-p{
-    color:rgb(136, 159, 189);
-    margin-left: 25px;
 
+footer .creator span{
+    color: rgba(153, 154, 154, 0.72);
 }
+
 
 
 
